@@ -4,6 +4,34 @@ An intelligent, AI-powered mock interview application that simulates real-world 
 
 ---
 
+## 📸 Application Screenshots
+
+### 🏠 Landing Page
+![Landing Page](./public/screenshots/landing-page.png)
+
+---
+
+### 📊 Dashboard & Interview Setup
+| Dashboard Overview | Interview Prep & Camera Check |
+|---|---|
+| ![Dashboard](./public/screenshots/dashboard.png) | ![Interview Setup](./public/screenshots/interview-setup.png) |
+
+---
+
+### 🎙️ Practice Room & AI Feedback Report
+| Live Interview & Speech-to-Text | Evaluation & Constructive Feedback |
+|---|---|
+| ![Live Practice](./public/screenshots/interview-practice.png) | ![Feedback Report](./public/screenshots/feedback-report.png) |
+
+---
+
+### 💳 Plans & Authentication
+| Upgrade & Pricing Plans | Clerk Secure Authentication |
+|---|---|
+| ![Upgrade Plans](./public/screenshots/upgrade-plans.png) | ![Sign In](./public/screenshots/sign-in.png) |
+
+---
+
 ## 🌟 Key Features
 
 - **Tailored AI Questions**: Generate realistic interview questions customized to your specific job role, tech stack, and years of experience using Google Gemini.
