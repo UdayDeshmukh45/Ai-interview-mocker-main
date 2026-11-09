@@ -19,6 +19,7 @@
     "@radix-ui/react-slot": "^1.1.0",
     "class-variance-authority": "^0.7.0",
     "clsx": "^2.1.1",
+    "dotenv": "^18.0.10",
     "drizzle-orm": "^0.32.0",
     "framer-motion": "^11.3.3",
     "lucide-react": "^0.408.0",

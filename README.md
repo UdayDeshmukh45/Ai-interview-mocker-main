@@ -78,16 +78,21 @@ npm install
 Create a `.env.local` file in the root directory based on `.env.example`:
 
 ```env
+# Database Configuration (PostgreSQL / Neon)
+DATABASE_URL=postgresql://user:password@host/database?sslmode=require
+NEXT_PUBLIC_DRIZZLE_DB_URL=postgresql://user:password@host/database?sslmode=require
+
+# Clerk Authentication
 NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY=your_clerk_publishable_key
 CLERK_SECRET_KEY=your_clerk_secret_key
 
 NEXT_PUBLIC_CLERK_SIGN_IN_URL=/sign-in
 NEXT_PUBLIC_CLERK_SIGN_UP_URL=/sign-up
 
-NEXT_PUBLIC_DRIZZLE_DB_URL=postgresql://user:password@host/database?sslmode=require
-
+# Google Gemini AI
 NEXT_PUBLIC_GEMINI_API_KEY=your_gemini_api_key
 
+# Interview Settings
 NEXT_PUBLIC_INTERVIEW_QUESTION_COUNT=5
 NEXT_PUBLIC_INFORMATION=Enable Video Web Cam and Microphone to Start your AI Generated Mock Interview...
 NEXT_PUBLIC_QUESTION_NOTE=Click on Record Answer when you want to answer the question...
